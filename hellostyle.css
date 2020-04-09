@@ -10,5 +10,9 @@ h1{
 div{
     background-color: beige;
     width: 70%;
+    padding: 5px;
     color:teal;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
+
