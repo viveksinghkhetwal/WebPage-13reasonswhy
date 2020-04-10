@@ -7,12 +7,29 @@ h1{
     text-align: center;
 }
 
-div{
+#detail{
     background-color: beige;
-    width: 70%;
+    width: 99%;
     padding: 5px;
     color:teal;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
+    font-size: larger;
+    font-weight: normal;
 }
+
+.media{
+    background-color: teal;
+    color: black;
+    font-size: larger;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+}
+
+#trailer{
+    width: 480px;
+    height: 320px;
+    padding: 10px;
+}
+
 
