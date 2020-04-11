@@ -2,23 +2,33 @@
 h1{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: xx-large;
+    padding: 20px;
+    font-size: 220%;
     color: wheat;
     text-align: center;
 }
+ h2{
+    padding: 10px;
+    margin: 15px;
+    color: floralwhite; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: larger; 
+    font-weight: normal; 
+ }
 
 #detail{
     background-color: beige;
-    width: 99%;
-    padding: 5px;
+    margin: 10px 20px;
+    padding: 15px;
     color:teal;
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .media{
-    background-color: teal;
+    background-color:teal;
+    margin: 5px 25px;
     color: floralwhite;
     font-size: larger;
     padding: 5px;
@@ -26,14 +36,41 @@ h1{
     font-weight: normal;
 }
 
-#trailer{
-    width: 99%;
-    
+#gallery{
+    margin: 5px 20px;
 }
-#text{
-    color: lightcyan;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 50;
+.image img{
+    transition: 1s;
+    padding: 0 10px;
+    width: 400px;
+    max-width: 100%;
+}
+.image img:hover{  
+    filter: grayscale();
+    transform: scale(1.1);
+
 }
 
+#trailer{
+    max-width: 95%;
+    padding: 10px;
+    
+}
+
+#song:hover{
+    width: 70%;
+}
+
+/*These lines are the color of the hyperlinks*/
+a:link{
+    color: red;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: indigo;
+}
+a:active{
+    color: blue;
+}

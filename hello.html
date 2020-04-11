@@ -3,29 +3,52 @@
     <head>
         <title>The Hannah Baker</title>
         <link rel="stylesheet" href="hellostyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
     </head>
     <body style="background-color: teal;">
         <h1>Welcome to Hannah's Story!</h1>
         <div id="detail">
-            Hey! This is Hannah Baker. <br> Want to know my story? Click on links below. <br>
-            <a href="https://en.wikipedia.org/wiki/Hannah_Baker">About-Me</a>&nbsp;
-            <a href="https://www.google.com/search?q=hannah+baker&sxsrf=ALeKk02RY6QB5XOPrs5O850lry6QfeJzew:1586456121074&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiMkLHM-dvoAhWI8HMBHf9gBGcQ_AUoAXoECBoQAw&biw=1242&bih=597">Images</a>
-            &nbsp; <a href="https://www.imdb.com/title/tt1837492/">About-Series</a> &nbsp;
+            <p>Hey! It's Hannah...! Hannah Baker. <br> Want to know my story? Below are some <span style="background-color: white;"> External links.</span></p>
+            <a href="https://en.wikipedia.org/wiki/Hannah_Baker">Wikipedia</a>&nbsp;
+            <a href="https://www.google.com/search?q=hannah+baker&sxsrf=ALeKk02RY6QB5XOPrs5O850lry6QfeJzew:1586456121074&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiMkLHM-dvoAhWI8HMBHf9gBGcQ_AUoAXoECBoQAw&biw=1242&bih=597">GoogleImages</a>
+            &nbsp; <a href="https://www.imdb.com/title/tt1837492/">Series(imdb)</a> &nbsp;
             <a href="http://185.105.101.222/2018/serial/13%20Reasons%20Why/">Download</a>
         </div> <br>
         <div class="media">
             Lord Huron - The Night We Met:
             <br><br>
-            <audio controls loop>
+            <audio id="song" controls loop>
                 <source src="The_Night_We_Met.mp3" type="audio/mp3">
                 Your browser foes not support the audio element.
             </audio>
         </div>
         <br>
-        <image src="hannah.jpg" width="100%">
-        <h4 style="color: floralwhite; font-family: 'Courier New', Courier, monospace; font-size: large; font-weight: normal;">Image:Katherine Langford</h4>
-        <div class="media"  style="width: 99%;">
-            <span id="text"><br>Trailer - 13 Reasons Why:</span> 
+        
+        <h2>Images:</h2>
+        <div id="gallery">
+            <span class="image">
+                <a href="images/hannah0.jpg"><image src="images/hannah0small.jpg"></a>
+            </span>
+            <span class="image">
+                <a href="images/hannah1.jpg"><image src="images/hannah1small.jpg"></a>
+            </span>
+            <span class="image">
+                <a href="images/hannah2.jpg"><image src="images/hannah2small.jpg"></a>
+            </span>
+            <span class="image"> 
+                <a href="images/hannah3.jpg"><image src="images/hannah3small.jpg"></a>
+            </span>
+            <span class="image">
+                <a href="images/hannah4.jpg"><image src="images/hannah4small.jpg"></a>
+            </span>
+            <span class="image">
+                <a href="images/hannah5.jpg"><image src="images/hannah5small.jpg"></a>
+            </span>
+        </div>
+        
+        <div class="media"> 
+            <h2>Trailer - 13 Reasons Why:</h2>
             <video  id="trailer" controls>
                 <source src="trailer.mp4" type="video/mp4">
             </video>
