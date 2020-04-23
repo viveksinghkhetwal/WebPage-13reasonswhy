@@ -4,17 +4,52 @@
         <title>The Hannah Baker</title>
         <link rel="stylesheet" href="hellostyle.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
     </head>
-    <body style="background-color: teal;">
-        <h1>Welcome to Hannah's Story!</h1>
+    <body>
+
+        
+
+        <div class="topnav" id="tnav">
+            <a style="color: teal; background-color: white;" href="hello.html">HOME</a>
+            <a href="https://www.google.com/search?q=hannah+baker&sxsrf=ALeKk02RY6QB5XOPrs5O850lry6QfeJzew:1586456121074&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiMkLHM-dvoAhWI8HMBHf9gBGcQ_AUoAXoECBoQAw&biw=1242&bih=597">GOOGLE IMAGES</a>
+            <a href="https://www.imdb.com/title/tt1837492/">SERIES (IMDB)</a>
+            <a href="http://185.105.101.222/2018/serial/13%20Reasons%20Why/">DOWNLOAD SERIES</a>
+            <a href="#trailer">WATCH TRAILER</a>
+            <a class="right" href="https://en.wikipedia.org/wiki/Hannah_Baker">ABOUT</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>    
+            </a>
+            
+        </div>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("tnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+        
+        <h1 id="header">Welcome, to Hannah's Story!</h1>
+        
+        <img src="images/image0.jpg"  width="100%">
+
         <div id="detail">
-            <p>Hey! It's Hannah...! Hannah Baker. <br> Want to know my story? Below are some <span style="background-color: white;"> External links.</span></p>
-            <a href="https://en.wikipedia.org/wiki/Hannah_Baker">Wikipedia</a>&nbsp;
-            <a href="https://www.google.com/search?q=hannah+baker&sxsrf=ALeKk02RY6QB5XOPrs5O850lry6QfeJzew:1586456121074&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiMkLHM-dvoAhWI8HMBHf9gBGcQ_AUoAXoECBoQAw&biw=1242&bih=597">GoogleImages</a>
-            &nbsp; <a href="https://www.imdb.com/title/tt1837492/">Series(imdb)</a> &nbsp;
-            <a href="http://185.105.101.222/2018/serial/13%20Reasons%20Why/">Download</a>
-        </div> <br>
+            <p>
+                Hannah(speaks): <br> "Hey! It's Hannah...! Hannah Baker......" <br> <br>
+                Want to know Hannah's story? <br><br>
+                Then, watch '13 Reasons Why' to know the 13 reasons why Hannah took such a decision.<br><br>
+                Here, you can listen to the beautiful song from 13 Reasons Why,<br> 
+                and also watch some of her pics.
+            </p>  
+        </div>
+
+            
         <div class="media">
             Lord Huron - The Night We Met:
             <br><br>
@@ -25,7 +60,7 @@
         </div>
         <br>
         
-        <h2>Images:</h2>
+        <h2>Images</h2>
         <div id="gallery">
             <span class="image">
                 <a href="images/hannah0.jpg"><image src="images/hannah0small.jpg"></a>
@@ -47,8 +82,8 @@
             </span>
         </div>
         
+        <h2>Trailer - 13 Reasons Why:</h2>
         <div class="media"> 
-            <h2>Trailer - 13 Reasons Why:</h2>
             <video  id="trailer" controls>
                 <source src="trailer.mp4" type="video/mp4">
             </video>
